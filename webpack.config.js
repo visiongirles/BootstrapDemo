@@ -8,7 +8,7 @@ module.exports = {
   },
   devServer: {
     static: path.resolve(__dirname, 'dist'),
-    port: 8080,
+    port: 5500,
     hot: true,
   },
   module: {
@@ -37,8 +37,4 @@ module.exports = {
       },
     ],
   },
-  //   include: [path.resolve(__dirname, 'src', 'styles')],
-  //   resolve: {
-  //     extensions: ['.js', '.jsx', '.scss'],
-  //   }
 };
